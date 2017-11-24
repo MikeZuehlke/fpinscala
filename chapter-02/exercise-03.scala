@@ -10,6 +10,6 @@ object Exercise0203 {
   val add = (x: Int, y: Int) => x + y
 
   def main(args: Array[String]) = {
-    println(curry(add)(2: Int)(4: Int))
+    println(curry(add)(2)(4))
   }  
 }

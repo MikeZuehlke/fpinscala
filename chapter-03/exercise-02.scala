@@ -11,7 +11,7 @@ object Exercise0302 {
   }
    
   def main(args: Array[String]) = {
-    println( tail(List())        == List())
-    println( tail(List(1,2,3,4)) == List(2,3,4))
+    println(tail(List())           == List())
+    println(tail(List(1, 2, 3, 4)) == List(2, 3, 4))
   }
 }

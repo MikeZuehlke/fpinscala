@@ -3,7 +3,7 @@
  * beginning of a list as long as they fulfil a given
  * predicate.
  */
-object Exercise0306 {
+object Exercise0305 {
 
   def dropWhile[A](as: List[A], p: A => Boolean): List[A] = {
     

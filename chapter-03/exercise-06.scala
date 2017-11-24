@@ -13,7 +13,7 @@ object Exercise0306 {
   }
    
   def main(args: Array[String]) = {
-    println(init(List())           == Nil)
+    println(init(Nil)              == Nil)
     println(init(List(1))          == Nil)
     println(init(List(1, 2, 3, 4)) == List(1,2,3))
   }

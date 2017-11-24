@@ -2,7 +2,7 @@
  * Write a function which removes the last element
  * from a list.
  */
-object Exercise0307 {
+object Exercise0306 {
 
   def init[A](as: List[A]): List[A] = {
     as match {

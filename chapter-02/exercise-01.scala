@@ -1,5 +1,5 @@
 /* Write a recursive function to get the n-th Fibonacci number.
- *  Use a local tail recursive funciton
+ *  Use a local tail recursive function.
  */
 object Exercise0201 {
 

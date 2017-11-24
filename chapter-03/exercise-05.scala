@@ -13,7 +13,7 @@ object Exercise0304 {
         case h :: t => if (p(h)) 
                           go(t)
                        else
-                          h :: t
+                          as
                           
       }
     
